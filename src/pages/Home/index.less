@@ -1,0 +1,97 @@
+.homeWrap {
+  .homeTitle {
+    height: 59px;
+    font-family: 'PingFang SC';
+    padding-top: 44px;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0;
+    text-align: center;
+    font-variation-settings: 'opsz' auto;
+    color: #fff;
+  }
+
+  .homeContent {
+    .topicList {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .topicItem {
+        margin-top: 16px;
+        width: 166px;
+        height: 97px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 97px;
+        text-align: center;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+      }
+    }
+  }
+
+  .modalBody {
+    // position: absolute;
+    width: 374px;
+    height: 472px;
+    margin-left: -46px;
+    margin-top: -220px;
+    background: url('../../assets/modalBg.png') no-repeat center center /
+      contain;
+
+    .modalContent {
+      position: absolute;
+      width: 240px;
+      height: 140px;
+      bottom: 50px;
+      left: 20px;
+      text-align: center;
+
+      .modalTitle {
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #000;
+      }
+
+      .modalDesc {
+        margin-top: 8px;
+        font-size: 13px;
+        font-weight: normal;
+        color: #000;
+        opacity: 0.5;
+      }
+
+      .opreateBtns {
+        margin-top: 24px;
+        display: flex;
+
+        .oprateBtn {
+          width: 118px;
+          height: 43px;
+          line-height: 43px;
+          border-radius: 61px;
+          opacity: 1;
+          font-size: 15px;
+          box-shadow: inset 0 0 10px 0 #edf9ff;
+        }
+
+        .cancelBtn {
+          color: #275fdf;
+          background: linear-gradient(180deg, #def 0%, #e1f6ff 100%);
+        }
+
+        .unlockBtn {
+          margin-left: 12px;
+          font-weight: 600;
+          color: #fff;
+          background: linear-gradient(180deg, #3f74ff 0%, #7aafff 100%);
+        }
+      }
+    }
+  }
+}
